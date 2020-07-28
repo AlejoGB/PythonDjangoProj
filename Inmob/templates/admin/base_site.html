@@ -1,0 +1,13 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+
+
+{% block branding %}
+    <h1 id="head">
+        <img src="{% static 'img/logo.png'%}" alt="Catanzaro Logo" height="50" width="80" class="brand_im">
+        Catanzaro Propiedades - Area de Administración
+    </h1>
+{% endblock %}
+{% block extrastyle %}
+    <link rel="stylesheet" href="{% static 'css/admin.css' %}">
+{% endblock %}
