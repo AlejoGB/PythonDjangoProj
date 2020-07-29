@@ -6,14 +6,14 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=django
 
 ### Django ###
-#inmob/media
-#inmob/static
+inmob/media
+inmob/static
 inmob/__pycache__/
-#/inmob/media
-#/inmob/static
+/inmob/media
+/inmob/static
 /inmob/__pycache__/
-#/static
-#/media
+/static
+/media
 *.log
 *.pot
 *.pyc
